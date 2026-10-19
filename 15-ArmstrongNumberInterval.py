@@ -10,6 +10,7 @@ for num in range(lower, upper + 1):
         digit = temp % 10
         cube = digit ** order
         sum = sum + cube
+        # To get a digit by digit
         temp = temp // 10
 
     if num == sum:
